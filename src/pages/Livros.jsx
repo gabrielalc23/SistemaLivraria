@@ -1,9 +1,13 @@
+import { Container } from "react-bootstrap";
 import LivrosCarrosel from "../components/LivrosCarrosel";
 
-const Livros = ()=>{
-    return(
+
+const Livros = () => {
+    return (
         <>
-        <LivrosCarrosel />
+            <Container>
+                <LivrosCarrosel />
+            </Container>
         </>
     );
 }

@@ -1,6 +1,8 @@
-import theWitcherImage from '../../public/LivrosImgs/theWitcherImage';
-import harryPotterImage from '../../public/LivrosImgs/harryPotterImage';
-import senhorDosAneisImage from '../../public/LivrosImgs/senhorDosAneisImage';
+import theWitcherImage from     '../../public/LivrosImgs/theWitcherImage.jpg';
+import harryPotterImage from    '../../public/LivrosImgs/harryPotterImage.jpg';
+import senhorDosAneisImage from '../../public/LivrosImgs/senhorDosAneisImage.jpg';
+import { Carousel } from 'react-bootstrap';
+
 const LivrosCarrosel = () => {
     return (
         <>

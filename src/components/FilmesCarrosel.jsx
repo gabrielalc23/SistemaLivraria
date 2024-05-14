@@ -1,7 +1,7 @@
 import { Carousel}     from 'react-bootstrap';
-import avatarImage     from '../../public/FilmesImgs/avatarImage';
-import vingadoresImage from '../../public/FilmesImgs/vingadoresImage';
-import reileaoImage    from '../../public/FilmesImgs/reileaoImage';
+import avatarImage     from '../../public/FilmesImgs/avatarImage.jpg';
+import vingadoresImage from '../../public/FilmesImgs/vingadoresImage.jpg';
+import reileaoImage    from '../../public/FilmesImgs/reileaoImage.jpg';
 
 const FilmesCarrosel = () => {
     return (
@@ -14,7 +14,7 @@ const FilmesCarrosel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={vingadoresImage} className='w-100 ' />
+                    <img src={vingadoresImage} className=' d-block w-100 ' />
                     <Carousel.Caption>
                         <h1>Penis</h1>
                     </Carousel.Caption>

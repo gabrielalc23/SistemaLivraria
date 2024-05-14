@@ -4,9 +4,11 @@ import FilmesCarrosel from "../components/FilmesCarrosel";
 const Filme = ()=>{
     return(
         <>
-        <Container>
+        <div className="bg-dark">
+        <Container className="d-flex justify-content-center">
             <FilmesCarrosel />
         </Container>
+        </div>
         </>
     );
 }
