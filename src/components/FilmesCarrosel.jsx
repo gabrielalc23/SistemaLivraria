@@ -6,7 +6,7 @@ import reileaoImage from '../../public/FilmesImgs/reileaoImage.jpg';
 const FilmesCarrosel = () => {
     return (
         <>
-            <div className="d-flex align-items-center justify-content-center mt-5">
+            <div className="d-flex align-items-center justify-content-center bg-dark">
                 <Carousel>
                     <Carousel.Item>
                         <img src={avatarImage} className='w-100' />

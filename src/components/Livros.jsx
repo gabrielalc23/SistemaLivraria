@@ -15,6 +15,16 @@ const bookData = [
     title: "The Witcher",
     image: "/LivrosImgs/theWitcherLivro.jpg",
     width: 195,
+  },
+  {
+    title: "Professor",
+    image: "/LivrosImgs/theWitcherLivro.jpg",
+    width: 195,
+},
+  {
+    title: "Professor",
+    image: "/LivrosImgs/theWitcherLivro.jpg",
+    width: 195,
   }
 ];
 
@@ -36,7 +46,7 @@ const BookCard = ({ title, image, width }) => {
 
 const LivrosCard = () => {
   return (
-    <Container className="bg-secondary bg-gradient mt-5 rounded">
+    <Container className="bg-light mt-5 rounded">
       <div className="d-flex d-grid gap-2">
         {bookData.map((book) => (
           <BookCard key={book.title} {...book} />

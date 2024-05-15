@@ -4,8 +4,10 @@ import LivrosCard from "../components/Livros";
 const Livros = () => {
     return (
         <>
-            <LivrosCarrosel />
-            <LivrosCard />
+            <div className="bg-dark">
+                <LivrosCarrosel />
+                <LivrosCard />
+            </div>
         </>
     );
 }

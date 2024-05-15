@@ -15,11 +15,11 @@ import Home from './pages/Home.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <></>,
+    element: <>Penis</>,
   },
   {
     path: "/Home",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/Livros",
@@ -35,6 +35,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Menu />
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
 )
